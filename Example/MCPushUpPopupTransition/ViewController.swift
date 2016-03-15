@@ -31,7 +31,7 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
             toVC.modalPresentationStyle = UIModalPresentationStyle.OverCurrentContext
         }
     }
-    g
+    
     // MARK: - UIViewControllerTransitioning Delegate
     
     func animationControllerForPresentedController(presented: UIViewController, presentingController presenting: UIViewController, sourceController source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
