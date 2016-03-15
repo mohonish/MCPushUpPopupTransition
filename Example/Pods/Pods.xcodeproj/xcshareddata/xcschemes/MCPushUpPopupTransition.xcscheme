@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A80A2B19BB12D38B42BACF8D'
+               BlueprintIdentifier = 'F6FAB27E076429BCDA78CE68'
                BlueprintName = 'MCPushUpPopupTransition'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'MCPushUpPopupTransition.framework'>

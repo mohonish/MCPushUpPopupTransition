@@ -1,17 +1,18 @@
 {
   "name": "MCPushUpPopupTransition",
   "version": "0.1.0",
-  "summary": "A short description of MCPushUpPopupTransition.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MCPushUpPopupTransition",
+  "summary": "A simple bottom push up popup transition",
+  "description": "A simple bottom push up present and dimiss transition with alpha change.",
+  "homepage": "https://github.com/mohonish/MCPushUpPopupTransition",
   "license": "MIT",
   "authors": {
     "Mohonish Chakraborty": "mohonish.c@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MCPushUpPopupTransition.git",
+    "git": "https://github.com/mohonish/MCPushUpPopupTransition.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/mohonishc",
   "platforms": {
     "ios": "8.0"
   },

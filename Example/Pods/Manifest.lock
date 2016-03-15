@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MCPushUpPopupTransition: db67041a0d125e1dd97ba53063e3f947f35e3da5
+  MCPushUpPopupTransition: 4648f653dd6120e099fc4f7fee7d233fa1782ce8
 
 COCOAPODS: 0.39.0

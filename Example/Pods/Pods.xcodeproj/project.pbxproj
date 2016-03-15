@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003EF4F7C2025151E49F54D0836FFF2F /* MCPushUpPopupTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC44DD535AB8A95652FC80FA85C6C8B /* MCPushUpPopupTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31E98F2623915505ECDC7BDFAA4FAFB1 /* Pods-MCPushUpPopupTransition_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2759951EEF2709051E54D64FC1FFAF1E /* Pods-MCPushUpPopupTransition_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46B6A213F34440BE170D1A7CA7053319 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		48D58DF070BB72AC78E7ED2F558EC8B3 /* Pods-MCPushUpPopupTransition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2E766A9FC2A2B6ED770171330631F5 /* Pods-MCPushUpPopupTransition_Tests-dummy.m */; };
-		54A1CB70D659F40907ED156BD2C50BBC /* MCPushUpPopupTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC44DD535AB8A95652FC80FA85C6C8B /* MCPushUpPopupTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B0CD3AA657C6BCBD1FDA184B8585CCD /* MCPushUpPopupTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0FB9E3BAE5D1EAB24CBEB91FAF97C2 /* MCPushUpPopupTransition-dummy.m */; };
 		5EE2B61CDDC214AADE665AF152D617AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		93EAA5E07247F83EFAF50F468C1AED26 /* MCPushUpPopupTransition.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D3DE6C9F196C26E8965402DB5DC92950 /* MCPushUpPopupTransition.bundle */; };
-		A9ADBB63EB258A5D8981B0B05593373D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		AA3EC2A21C98442900C8D059 /* CustomDIsmissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3EC2A01C98442900C8D059 /* CustomDIsmissAnimationController.swift */; };
-		AA3EC2A31C98442900C8D059 /* CustomPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3EC2A11C98442900C8D059 /* CustomPresentAnimationController.swift */; };
 		B21DDAA81269B0D36E370029A629395D /* Pods-MCPushUpPopupTransition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE79D80CE2715A850D290549F63AFDD5 /* Pods-MCPushUpPopupTransition_Example-dummy.m */; };
-		D94DD63298F3A32A2AF75DEFE6668A46 /* MCPushUpPopupTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0FB9E3BAE5D1EAB24CBEB91FAF97C2 /* MCPushUpPopupTransition-dummy.m */; };
+		BDA72528D1864D0BCE8A00FF89FB1D5B /* CustomPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD21DF0B9096D1752198B8505835465 /* CustomPresentAnimationController.swift */; };
+		DFBAD22E9A7D5B0F60D9EA8AD2DD4D67 /* CustomDismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BF76630F204746ED3963FDD324FFB /* CustomDismissAnimationController.swift */; };
+		EBC7A87967E62A47DC7496312ED0087B /* MCPushUpPopupTransition.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D3DE6C9F196C26E8965402DB5DC92950 /* MCPushUpPopupTransition.bundle */; };
 		EC7C5C31AA15D9B19C91861A369753AC /* Pods-MCPushUpPopupTransition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAA70349C111B1AFB72690B4021B953 /* Pods-MCPushUpPopupTransition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF4F80921B79FD4EF76E242D49312999 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -26,21 +26,21 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DE51528B6A4251922BB515C786A5EB56;
+			remoteGlobalIDString = FE5B6D21DA98F370E1A6B8FA0B2387D1;
 			remoteInfo = MCPushUpPopupTransition;
 		};
-		E3C24A74B60930248FBA0247A22B3EC9 /* PBXContainerItemProxy */ = {
+		8CD793EC43DED0B3A70EF102BE51BC35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8023E03ED5C4B4EB26B31E8DA2D21202;
+			remoteGlobalIDString = 79A776FB8AFEACAD4E4091D2B0F0ED50;
 			remoteInfo = "MCPushUpPopupTransition-MCPushUpPopupTransition";
 		};
 		FF1D1C35264677A226D2200C3156BD7E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DE51528B6A4251922BB515C786A5EB56;
+			remoteGlobalIDString = FE5B6D21DA98F370E1A6B8FA0B2387D1;
 			remoteInfo = MCPushUpPopupTransition;
 		};
 /* End PBXContainerItemProxy section */
@@ -59,6 +59,7 @@
 		474E8506CAD9D740FFD9D59BF8DB75EC /* Pods-MCPushUpPopupTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCPushUpPopupTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C7F346AE7E608F11B13E696287CCC95 /* Pods-MCPushUpPopupTransition_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCPushUpPopupTransition_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6C27D09D798122852185C270D7D52366 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AD21DF0B9096D1752198B8505835465 /* CustomPresentAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomPresentAnimationController.swift; sourceTree = "<group>"; };
 		7DE22CDCD08B6BC1BF7869C3D6ACB833 /* Pods-MCPushUpPopupTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCPushUpPopupTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8A32242FB1EE8DACE93F9D979D66F3BD /* MCPushUpPopupTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MCPushUpPopupTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EAA70349C111B1AFB72690B4021B953 /* Pods-MCPushUpPopupTransition_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MCPushUpPopupTransition_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -66,8 +67,6 @@
 		A53A2277C042E556040132BEBD53095C /* Pods-MCPushUpPopupTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCPushUpPopupTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A89B906627A4437797175C3DCA8F0990 /* MCPushUpPopupTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCPushUpPopupTransition.xcconfig; sourceTree = "<group>"; };
 		A9D0D38FF81D1FE0226E9ABC74EE3717 /* MCPushUpPopupTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCPushUpPopupTransition-prefix.pch"; sourceTree = "<group>"; };
-		AA3EC2A01C98442900C8D059 /* CustomDIsmissAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDIsmissAnimationController.swift; sourceTree = "<group>"; };
-		AA3EC2A11C98442900C8D059 /* CustomPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPresentAnimationController.swift; sourceTree = "<group>"; };
 		ABC44DD535AB8A95652FC80FA85C6C8B /* MCPushUpPopupTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCPushUpPopupTransition-umbrella.h"; sourceTree = "<group>"; };
 		B057013326C4FA6EDA94F4A96EB0502D /* Pods-MCPushUpPopupTransition_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCPushUpPopupTransition_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B88BB157BCF996738524F062BD5AC234 /* MCPushUpPopupTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MCPushUpPopupTransition.modulemap; sourceTree = "<group>"; };
@@ -79,22 +78,23 @@
 		D3DE6C9F196C26E8965402DB5DC92950 /* MCPushUpPopupTransition.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCPushUpPopupTransition.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EE2E6595212C47272AFA3A9652DC60 /* Pods-MCPushUpPopupTransition_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MCPushUpPopupTransition_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DD77F41078CDDD0058603BD15C7AAA17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4BF76630F204746ED3963FDD324FFB /* CustomDismissAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomDismissAnimationController.swift; sourceTree = "<group>"; };
 		E1E4E4F39BEF26D144E07BA76327518F /* Pods-MCPushUpPopupTransition_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MCPushUpPopupTransition_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3E07EF5F9E14332E7B93ED2D1E78965D /* Frameworks */ = {
+		1101962A135D6513E6AA8BFD1ADB85C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B6A213F34440BE170D1A7CA7053319 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A672E3EBF6759AB5A55E5B76EE622F5B /* Frameworks */ = {
+		B8FE2CE22452E3FE8AE01891C69917D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9ADBB63EB258A5D8981B0B05593373D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,15 +117,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		116C246B9C472D6AB71E5389EE25C2ED /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				AA3EC2A01C98442900C8D059 /* CustomDIsmissAnimationController.swift */,
-				AA3EC2A11C98442900C8D059 /* CustomPresentAnimationController.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		2D394FDA02DC604AB3CFDF17C0D0B38E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,7 +148,7 @@
 		55A4B5F2C1DA372D6D38FB0835939685 /* MCPushUpPopupTransition */ = {
 			isa = PBXGroup;
 			children = (
-				682717672985BD750B4C1F0A0BDF3EB7 /* Pod */,
+				EE2171735A34965F8062CB6F92F2722A /* Pod */,
 				E4816F14855AF262A0F04419F5046962 /* Support Files */,
 			);
 			name = MCPushUpPopupTransition;
@@ -180,14 +171,6 @@
 			);
 			name = "Pods-MCPushUpPopupTransition_Example";
 			path = "Target Support Files/Pods-MCPushUpPopupTransition_Example";
-			sourceTree = "<group>";
-		};
-		682717672985BD750B4C1F0A0BDF3EB7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				116C246B9C472D6AB71E5389EE25C2ED /* Classes */,
-			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -217,6 +200,15 @@
 			);
 			name = "Pods-MCPushUpPopupTransition_Tests";
 			path = "Target Support Files/Pods-MCPushUpPopupTransition_Tests";
+			sourceTree = "<group>";
+		};
+		A55746AA8C8857657D9885B5911CE386 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DE4BF76630F204746ED3963FDD324FFB /* CustomDismissAnimationController.swift */,
+				7AD21DF0B9096D1752198B8505835465 /* CustomPresentAnimationController.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -249,14 +241,22 @@
 			path = "Example/Pods/Target Support Files/MCPushUpPopupTransition";
 			sourceTree = "<group>";
 		};
+		EE2171735A34965F8062CB6F92F2722A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A55746AA8C8857657D9885B5911CE386 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		77BF99A1CE5F10BFEE0AC7B077ACEC7B /* Headers */ = {
+		2491BFA141A267CDE513D90F27C0EA65 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54A1CB70D659F40907ED156BD2C50BBC /* MCPushUpPopupTransition-umbrella.h in Headers */,
+				003EF4F7C2025151E49F54D0836FFF2F /* MCPushUpPopupTransition-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,13 +297,13 @@
 			productReference = 38F359BE4779EF5037EE2426ABF15BCB /* Pods_MCPushUpPopupTransition_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8023E03ED5C4B4EB26B31E8DA2D21202 /* MCPushUpPopupTransition-MCPushUpPopupTransition */ = {
+		79A776FB8AFEACAD4E4091D2B0F0ED50 /* MCPushUpPopupTransition-MCPushUpPopupTransition */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11F7855E4FA8AF3062E8EEE9A2E3356B /* Build configuration list for PBXNativeTarget "MCPushUpPopupTransition-MCPushUpPopupTransition" */;
+			buildConfigurationList = 4A5D30E93FDCD4EE1808A8C6CEFF93AD /* Build configuration list for PBXNativeTarget "MCPushUpPopupTransition-MCPushUpPopupTransition" */;
 			buildPhases = (
-				2CC30F4B145C8B3606DFD6583FFFE381 /* Sources */,
-				3E07EF5F9E14332E7B93ED2D1E78965D /* Frameworks */,
-				E6097A87CA3C313E3091436F3D2B3B97 /* Resources */,
+				ED772909A2B5A11CF3CD8B66676FF70B /* Sources */,
+				B8FE2CE22452E3FE8AE01891C69917D8 /* Frameworks */,
+				597C9D3987A8F1AE0D311AB7E60BF5F9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -332,19 +332,19 @@
 			productReference = 230347A0F7BFBD942C4BB4B86513AD28 /* Pods_MCPushUpPopupTransition_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DE51528B6A4251922BB515C786A5EB56 /* MCPushUpPopupTransition */ = {
+		FE5B6D21DA98F370E1A6B8FA0B2387D1 /* MCPushUpPopupTransition */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBB7A1D77143F53E62CFD61390B68A9B /* Build configuration list for PBXNativeTarget "MCPushUpPopupTransition" */;
+			buildConfigurationList = EB43577187933B91B19A00C0D9089B10 /* Build configuration list for PBXNativeTarget "MCPushUpPopupTransition" */;
 			buildPhases = (
-				34142350682FE494C5FA60CE60C79C37 /* Sources */,
-				A672E3EBF6759AB5A55E5B76EE622F5B /* Frameworks */,
-				AFC0A4C0D624C21811E95E1981D06F9F /* Resources */,
-				77BF99A1CE5F10BFEE0AC7B077ACEC7B /* Headers */,
+				47671B673C98255F958D5785AF1E7F8B /* Sources */,
+				1101962A135D6513E6AA8BFD1ADB85C2 /* Frameworks */,
+				544663B7CD74A8FF10132E7313FC8600 /* Resources */,
+				2491BFA141A267CDE513D90F27C0EA65 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				57BEB00B0797FF5E48A3B0885E3C39F7 /* PBXTargetDependency */,
+				3F8FDF61B44017D7D1B70DB921299F21 /* PBXTargetDependency */,
 			);
 			name = MCPushUpPopupTransition;
 			productName = MCPushUpPopupTransition;
@@ -357,7 +357,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -372,8 +372,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE51528B6A4251922BB515C786A5EB56 /* MCPushUpPopupTransition */,
-				8023E03ED5C4B4EB26B31E8DA2D21202 /* MCPushUpPopupTransition-MCPushUpPopupTransition */,
+				FE5B6D21DA98F370E1A6B8FA0B2387D1 /* MCPushUpPopupTransition */,
+				79A776FB8AFEACAD4E4091D2B0F0ED50 /* MCPushUpPopupTransition-MCPushUpPopupTransition */,
 				5B6117B199168891DB19CEF3736E1005 /* Pods-MCPushUpPopupTransition_Example */,
 				827731D9B3890FF13624C0358B77DC5F /* Pods-MCPushUpPopupTransition_Tests */,
 			);
@@ -381,15 +381,15 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AFC0A4C0D624C21811E95E1981D06F9F /* Resources */ = {
+		544663B7CD74A8FF10132E7313FC8600 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93EAA5E07247F83EFAF50F468C1AED26 /* MCPushUpPopupTransition.bundle in Resources */,
+				EBC7A87967E62A47DC7496312ED0087B /* MCPushUpPopupTransition.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6097A87CA3C313E3091436F3D2B3B97 /* Resources */ = {
+		597C9D3987A8F1AE0D311AB7E60BF5F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -399,20 +399,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2CC30F4B145C8B3606DFD6583FFFE381 /* Sources */ = {
+		47671B673C98255F958D5785AF1E7F8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		34142350682FE494C5FA60CE60C79C37 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA3EC2A31C98442900C8D059 /* CustomPresentAnimationController.swift in Sources */,
-				AA3EC2A21C98442900C8D059 /* CustomDIsmissAnimationController.swift in Sources */,
-				D94DD63298F3A32A2AF75DEFE6668A46 /* MCPushUpPopupTransition-dummy.m in Sources */,
+				DFBAD22E9A7D5B0F60D9EA8AD2DD4D67 /* CustomDismissAnimationController.swift in Sources */,
+				BDA72528D1864D0BCE8A00FF89FB1D5B /* CustomPresentAnimationController.swift in Sources */,
+				4B0CD3AA657C6BCBD1FDA184B8585CCD /* MCPushUpPopupTransition-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,25 +425,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED772909A2B5A11CF3CD8B66676FF70B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		57BEB00B0797FF5E48A3B0885E3C39F7 /* PBXTargetDependency */ = {
+		3F8FDF61B44017D7D1B70DB921299F21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "MCPushUpPopupTransition-MCPushUpPopupTransition";
-			target = 8023E03ED5C4B4EB26B31E8DA2D21202 /* MCPushUpPopupTransition-MCPushUpPopupTransition */;
-			targetProxy = E3C24A74B60930248FBA0247A22B3EC9 /* PBXContainerItemProxy */;
+			target = 79A776FB8AFEACAD4E4091D2B0F0ED50 /* MCPushUpPopupTransition-MCPushUpPopupTransition */;
+			targetProxy = 8CD793EC43DED0B3A70EF102BE51BC35 /* PBXContainerItemProxy */;
 		};
 		86445E84B409CEFF7BFB5FBA63A8D360 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MCPushUpPopupTransition;
-			target = DE51528B6A4251922BB515C786A5EB56 /* MCPushUpPopupTransition */;
+			target = FE5B6D21DA98F370E1A6B8FA0B2387D1 /* MCPushUpPopupTransition */;
 			targetProxy = FF1D1C35264677A226D2200C3156BD7E /* PBXContainerItemProxy */;
 		};
 		A34FA5A8E03AAB8F253EB11F29393DF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MCPushUpPopupTransition;
-			target = DE51528B6A4251922BB515C786A5EB56 /* MCPushUpPopupTransition */;
+			target = FE5B6D21DA98F370E1A6B8FA0B2387D1 /* MCPushUpPopupTransition */;
 			targetProxy = 344F816EA183C5BA2639CBE4745B7E4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -550,6 +550,34 @@
 			};
 			name = Release;
 		};
+		39CFED45E47AD0503B422B3D7EA1BFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89B906627A4437797175C3DCA8F0990 /* MCPushUpPopupTransition.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MCPushUpPopupTransition/MCPushUpPopupTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MCPushUpPopupTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MCPushUpPopupTransition/MCPushUpPopupTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MCPushUpPopupTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -620,18 +648,6 @@
 			};
 			name = Debug;
 		};
-		677871ACF8765CCF3276DC4B1BFFD940 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A89B906627A4437797175C3DCA8F0990 /* MCPushUpPopupTransition.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MCPushUpPopupTransition;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		728E025E105B4F5D392AE43149BB0F5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 319DF41A4898041838DEB0C1130BBE2C /* Pods-MCPushUpPopupTransition_Example.debug.xcconfig */;
@@ -663,7 +679,7 @@
 			};
 			name = Debug;
 		};
-		9D41F101D4A738C0B218610D08F2FB35 /* Release */ = {
+		A8B3F49D07FE35DA007497E465004D82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A89B906627A4437797175C3DCA8F0990 /* MCPushUpPopupTransition.xcconfig */;
 			buildSettings = {
@@ -675,40 +691,10 @@
 			};
 			name = Release;
 		};
-		9D83B06A2F8A2C28248080CBAEB81D50 /* Debug */ = {
+		A9FA84C8DFE6546FAE18C5A2A7414271 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A89B906627A4437797175C3DCA8F0990 /* MCPushUpPopupTransition.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MCPushUpPopupTransition/MCPushUpPopupTransition-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MCPushUpPopupTransition/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MCPushUpPopupTransition/MCPushUpPopupTransition.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MCPushUpPopupTransition;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F1710116AADEAE51D2F22EBEA2F1D8DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A89B906627A4437797175C3DCA8F0990 /* MCPushUpPopupTransition.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -732,23 +718,35 @@
 			};
 			name = Release;
 		};
+		D437228C50048006DB91292CF538392A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89B906627A4437797175C3DCA8F0990 /* MCPushUpPopupTransition.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MCPushUpPopupTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11F7855E4FA8AF3062E8EEE9A2E3356B /* Build configuration list for PBXNativeTarget "MCPushUpPopupTransition-MCPushUpPopupTransition" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				677871ACF8765CCF3276DC4B1BFFD940 /* Debug */,
-				9D41F101D4A738C0B218610D08F2FB35 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
 				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5D30E93FDCD4EE1808A8C6CEFF93AD /* Build configuration list for PBXNativeTarget "MCPushUpPopupTransition-MCPushUpPopupTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D437228C50048006DB91292CF538392A /* Debug */,
+				A8B3F49D07FE35DA007497E465004D82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -762,20 +760,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBB7A1D77143F53E62CFD61390B68A9B /* Build configuration list for PBXNativeTarget "MCPushUpPopupTransition" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9D83B06A2F8A2C28248080CBAEB81D50 /* Debug */,
-				F1710116AADEAE51D2F22EBEA2F1D8DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C221A01C49265A24E2B631D8AFAF50D7 /* Build configuration list for PBXNativeTarget "Pods-MCPushUpPopupTransition_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59D57B0CB23A906047DF42DEB5CA2C54 /* Debug */,
 				123B0F8FC93D1021760FB8FA45125E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB43577187933B91B19A00C0D9089B10 /* Build configuration list for PBXNativeTarget "MCPushUpPopupTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39CFED45E47AD0503B422B3D7EA1BFDF /* Debug */,
+				A9FA84C8DFE6546FAE18C5A2A7414271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

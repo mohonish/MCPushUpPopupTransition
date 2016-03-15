@@ -9,15 +9,15 @@
 import Foundation
 import UIKit
 
-class CustomPresentAnimationController: NSObject, UIViewControllerAnimatedTransitioning {
+public class CustomPresentAnimationController: NSObject, UIViewControllerAnimatedTransitioning {
     
     // MARK: - UIViewControllerAnimatedTransitioning Protocol
     
-    func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval {
+    public func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval {
         return 0.5
     }
     
-    func animateTransition(transitionContext: UIViewControllerContextTransitioning) {
+    public func animateTransition(transitionContext: UIViewControllerContextTransitioning) {
         
         let fromViewController = transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey)
         let toViewController = transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey)
