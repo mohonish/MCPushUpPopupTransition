@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MCPushUpPopupTransition_Example', :exclusive => true do
+  pod 'MCPushUpPopupTransition', :path => '../'
+end
+
+target 'MCPushUpPopupTransition_Tests', :exclusive => true do
+  pod 'MCPushUpPopupTransition', :path => '../'
+
+  
+end
