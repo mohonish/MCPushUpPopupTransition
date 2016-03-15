@@ -35,10 +35,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Popup View Controller-->
         <scene sceneID="rxe-74-R0z">
             <objects>
-                <viewController id="X9H-W6-QaE" sceneMemberID="viewController">
+                <viewController id="X9H-W6-QaE" customClass="PopupViewController" customModule="MCPushUpPopupTransition_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="arO-nf-Kgm"/>
                         <viewControllerLayoutGuide type="bottom" id="tcz-6J-mNx"/>
