@@ -1,0 +1,14 @@
+PODS:
+  - MCPushUpPopupTransition (0.1.0)
+
+DEPENDENCIES:
+  - MCPushUpPopupTransition (from `../`)
+
+EXTERNAL SOURCES:
+  MCPushUpPopupTransition:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MCPushUpPopupTransition: db67041a0d125e1dd97ba53063e3f947f35e3da5
+
+COCOAPODS: 0.39.0

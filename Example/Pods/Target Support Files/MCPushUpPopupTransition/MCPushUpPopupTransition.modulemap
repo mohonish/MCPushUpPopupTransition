@@ -1,0 +1,6 @@
+framework module MCPushUpPopupTransition {
+  umbrella header "MCPushUpPopupTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}
