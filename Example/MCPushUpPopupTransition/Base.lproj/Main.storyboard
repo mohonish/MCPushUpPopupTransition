@@ -18,19 +18,55 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjC-Ce-57p">
-                                <rect key="frame" x="281" y="285" width="38" height="30"/>
-                                <state key="normal" title="Show"/>
+                                <rect key="frame" x="260" y="270" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="z42-7b-9dQ"/>
+                                </constraints>
+                                <state key="normal" title="Alpha">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="X9H-W6-QaE" kind="presentation" identifier="ShowAction" id="QhS-z6-mzD"/>
+                                    <action selector="showAlphaTransition:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wmI-ZQ-XcT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0I7-Vm-OkJ">
+                                <rect key="frame" x="260" y="316" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="3Cc-Sk-ywo"/>
+                                </constraints>
+                                <state key="normal" title="Blur">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showBlurTransition:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="I33-4T-one"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="GjC-Ce-57p" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="7Ws-G9-5Q7"/>
+                            <constraint firstItem="GjC-Ce-57p" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" constant="-15" id="7Ws-G9-5Q7"/>
+                            <constraint firstItem="0I7-Vm-OkJ" firstAttribute="top" secondItem="GjC-Ce-57p" secondAttribute="bottom" constant="16" id="DKR-hW-L0i"/>
+                            <constraint firstItem="0I7-Vm-OkJ" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="FcO-YQ-Gy4"/>
                             <constraint firstItem="GjC-Ce-57p" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="YtW-Kf-FwV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="X9H-W6-QaE" kind="presentation" identifier="ShowAction" id="g5h-eS-yhG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -49,7 +85,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WfM-XG-6ah">
                                 <rect key="frame" x="0.0" y="480" width="600" height="120"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.270588249" green="0.67450982329999998" blue="0.88235294819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="afe-gi-iZj"/>
                                 </constraints>
@@ -65,7 +101,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="saS-XX-goE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="961" y="335"/>
+            <point key="canvasLocation" x="1375" y="1078"/>
         </scene>
     </scenes>
 </document>

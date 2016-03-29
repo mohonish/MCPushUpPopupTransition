@@ -13,6 +13,8 @@
 		48D58DF070BB72AC78E7ED2F558EC8B3 /* Pods-MCPushUpPopupTransition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2E766A9FC2A2B6ED770171330631F5 /* Pods-MCPushUpPopupTransition_Tests-dummy.m */; };
 		4B0CD3AA657C6BCBD1FDA184B8585CCD /* MCPushUpPopupTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0FB9E3BAE5D1EAB24CBEB91FAF97C2 /* MCPushUpPopupTransition-dummy.m */; };
 		5EE2B61CDDC214AADE665AF152D617AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		AADF52341CAA44D2006B0536 /* BlurPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADF52331CAA44D2006B0536 /* BlurPresentAnimationController.swift */; };
+		AADF52361CAA44E0006B0536 /* BlurDismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADF52351CAA44E0006B0536 /* BlurDismissAnimationController.swift */; };
 		B21DDAA81269B0D36E370029A629395D /* Pods-MCPushUpPopupTransition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE79D80CE2715A850D290549F63AFDD5 /* Pods-MCPushUpPopupTransition_Example-dummy.m */; };
 		BDA72528D1864D0BCE8A00FF89FB1D5B /* CustomPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD21DF0B9096D1752198B8505835465 /* CustomPresentAnimationController.swift */; };
 		DFBAD22E9A7D5B0F60D9EA8AD2DD4D67 /* CustomDismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BF76630F204746ED3963FDD324FFB /* CustomDismissAnimationController.swift */; };
@@ -67,6 +69,8 @@
 		A53A2277C042E556040132BEBD53095C /* Pods-MCPushUpPopupTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCPushUpPopupTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A89B906627A4437797175C3DCA8F0990 /* MCPushUpPopupTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCPushUpPopupTransition.xcconfig; sourceTree = "<group>"; };
 		A9D0D38FF81D1FE0226E9ABC74EE3717 /* MCPushUpPopupTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCPushUpPopupTransition-prefix.pch"; sourceTree = "<group>"; };
+		AADF52331CAA44D2006B0536 /* BlurPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurPresentAnimationController.swift; sourceTree = "<group>"; };
+		AADF52351CAA44E0006B0536 /* BlurDismissAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurDismissAnimationController.swift; sourceTree = "<group>"; };
 		ABC44DD535AB8A95652FC80FA85C6C8B /* MCPushUpPopupTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCPushUpPopupTransition-umbrella.h"; sourceTree = "<group>"; };
 		B057013326C4FA6EDA94F4A96EB0502D /* Pods-MCPushUpPopupTransition_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCPushUpPopupTransition_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B88BB157BCF996738524F062BD5AC234 /* MCPushUpPopupTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MCPushUpPopupTransition.modulemap; sourceTree = "<group>"; };
@@ -207,6 +211,8 @@
 			children = (
 				DE4BF76630F204746ED3963FDD324FFB /* CustomDismissAnimationController.swift */,
 				7AD21DF0B9096D1752198B8505835465 /* CustomPresentAnimationController.swift */,
+				AADF52331CAA44D2006B0536 /* BlurPresentAnimationController.swift */,
+				AADF52351CAA44E0006B0536 /* BlurDismissAnimationController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -403,7 +409,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADF52361CAA44E0006B0536 /* BlurDismissAnimationController.swift in Sources */,
 				DFBAD22E9A7D5B0F60D9EA8AD2DD4D67 /* CustomDismissAnimationController.swift in Sources */,
+				AADF52341CAA44D2006B0536 /* BlurPresentAnimationController.swift in Sources */,
 				BDA72528D1864D0BCE8A00FF89FB1D5B /* CustomPresentAnimationController.swift in Sources */,
 				4B0CD3AA657C6BCBD1FDA184B8585CCD /* MCPushUpPopupTransition-dummy.m in Sources */,
 			);

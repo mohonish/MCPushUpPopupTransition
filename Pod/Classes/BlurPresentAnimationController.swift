@@ -1,15 +1,15 @@
 //
-//  CustomPresentAnimationController.swift
-//  TransitionExample
+//  BlurPresentAnimationController.swift
+//  Pods
 //
-//  Created by Mohonish Chakraborty on 15/03/16.
-//  Copyright © 2016 codebrahma. All rights reserved.
+//  Created by Mohonish Chakraborty on 29/03/16.
+//
 //
 
 import Foundation
 import UIKit
 
-public class CustomPresentAnimationController: NSObject, UIViewControllerAnimatedTransitioning {
+public class BlurPresentAnimationController: NSObject, UIViewControllerAnimatedTransitioning {
     
     let duration: NSTimeInterval!
     let alphaValue: CGFloat!
@@ -36,10 +36,19 @@ public class CustomPresentAnimationController: NSObject, UIViewControllerAnimate
         let bounds = UIScreen.mainScreen().bounds
         toViewController!.view.frame = CGRectOffset(finalFrameForVC, 0, bounds.size.height)
         
+        // Blur Effect
+        let blurEffect = UIBlurEffect(style: .Light)
+        let blurEffectView = UIVisualEffectView(effect: blurEffect)
+        blurEffectView.frame = fromViewController!.view.bounds
+        blurEffectView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
+        blurEffectView.tag = 151
+        blurEffectView.alpha = 0
+        fromViewController!.view.addSubview(blurEffectView)
+        
         containerView?.addSubview((toViewController?.view)!)
         
         UIView.animateWithDuration(transitionDuration(transitionContext), animations: {
-            fromViewController!.view.alpha = self.alphaValue
+            blurEffectView.alpha = self.alphaValue
             toViewController!.view.frame = finalFrameForVC
             }, completion: {
                 finished in

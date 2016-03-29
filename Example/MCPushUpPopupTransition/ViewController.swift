@@ -11,8 +11,8 @@ import MCPushUpPopupTransition
 
 class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
     
-    let customPresentAnimationController = CustomPresentAnimationController()
-    let customDismissAnimationController = CustomDismissAnimationController()
+    var customPresentAnimationController: UIViewControllerAnimatedTransitioning = CustomPresentAnimationController(duration: 0.5, alphaValue: 0.5)
+    var customDismissAnimationController: UIViewControllerAnimatedTransitioning = CustomDismissAnimationController(duration: 0.5, alphaValue: 0.5)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +22,18 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func showAlphaTransition(sender: UIButton) {
+        self.customPresentAnimationController = CustomPresentAnimationController(duration: 0.5, alphaValue: 0.5)
+        self.customDismissAnimationController = CustomDismissAnimationController(duration: 0.5, alphaValue: 0.5)
+        self.performSegueWithIdentifier("ShowAction", sender: nil)
+    }
+    
+    @IBAction func showBlurTransition(sender: UIButton) {
+        self.customPresentAnimationController = BlurPresentAnimationController(duration: 0.5, alphaValue: 0.5)
+        self.customDismissAnimationController = BlurDismissAnimationController(duration: 0.5, alphaValue: 0.5)
+        self.performSegueWithIdentifier("ShowAction", sender: nil)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

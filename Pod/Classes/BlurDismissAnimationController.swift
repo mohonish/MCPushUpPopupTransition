@@ -1,15 +1,15 @@
 //
-//  CustomPresentAnimationController.swift
-//  TransitionExample
+//  BlurDismissAnimationController.swift
+//  Pods
 //
-//  Created by Mohonish Chakraborty on 15/03/16.
-//  Copyright © 2016 codebrahma. All rights reserved.
+//  Created by Mohonish Chakraborty on 29/03/16.
+//
 //
 
 import Foundation
 import UIKit
 
-public class CustomPresentAnimationController: NSObject, UIViewControllerAnimatedTransitioning {
+public class BlurDismissAnimationController: NSObject, UIViewControllerAnimatedTransitioning {
     
     let duration: NSTimeInterval!
     let alphaValue: CGFloat!
@@ -19,7 +19,7 @@ public class CustomPresentAnimationController: NSObject, UIViewControllerAnimate
         self.alphaValue = alphaValue
     }
     
-    // MARK: - UIViewControllerAnimatedTransitioning Protocol
+    // MARK: - UIViewControllerAnimatedTransitioning
     
     public func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval {
         return self.duration
@@ -31,18 +31,17 @@ public class CustomPresentAnimationController: NSObject, UIViewControllerAnimate
         let toViewController = transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey)
         
         let finalFrameForVC = transitionContext.finalFrameForViewController(toViewController!)
-        let containerView = transitionContext.containerView()
+        
+        toViewController!.view.frame = finalFrameForVC
         
         let bounds = UIScreen.mainScreen().bounds
-        toViewController!.view.frame = CGRectOffset(finalFrameForVC, 0, bounds.size.height)
-        
-        containerView?.addSubview((toViewController?.view)!)
+        let fromFinalFrame = CGRectOffset(fromViewController!.view.frame, 0, bounds.size.height)
         
         UIView.animateWithDuration(transitionDuration(transitionContext), animations: {
-            fromViewController!.view.alpha = self.alphaValue
-            toViewController!.view.frame = finalFrameForVC
-            }, completion: {
-                finished in
+            toViewController!.view.viewWithTag(151)!.alpha = 0
+            fromViewController!.view.frame = fromFinalFrame
+            }, completion: { (finished) in
+                toViewController!.view.viewWithTag(151)?.removeFromSuperview()
                 transitionContext.completeTransition(true)
         })
         

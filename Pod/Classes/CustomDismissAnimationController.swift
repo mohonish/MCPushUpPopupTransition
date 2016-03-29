@@ -11,8 +11,16 @@ import UIKit
 
 public class CustomDismissAnimationController: NSObject, UIViewControllerAnimatedTransitioning {
     
+    let duration: NSTimeInterval!
+    let alphaValue: CGFloat!
+    
+    public init(duration: NSTimeInterval, alphaValue: CGFloat) {
+        self.duration = duration
+        self.alphaValue = alphaValue
+    }
+    
     public func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval {
-        return 0.5
+        return self.duration
     }
     
     public func animateTransition(transitionContext: UIViewControllerContextTransitioning) {
@@ -23,7 +31,7 @@ public class CustomDismissAnimationController: NSObject, UIViewControllerAnimate
         let finalFrameForVC = transitionContext.finalFrameForViewController(toViewController!)
         
         toViewController!.view.frame = finalFrameForVC
-        toViewController!.view.alpha = 0.5
+        toViewController!.view.alpha = self.alphaValue
         
         let bounds = UIScreen.mainScreen().bounds
         let fromFinalFrame = CGRectOffset(fromViewController!.view.frame, 0, bounds.size.height)
