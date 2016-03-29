@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MCPushUpPopupTransition"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "A simple bottom push up popup transition"
 
 # This description is used to generate tags and improve search results.
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = "A simple bottom push up present and dimiss transition with alpha change."
+  s.description      = "A simple bottom push up present and dimiss transition with alpha or blur."
 
   s.homepage         = "https://github.com/mohonish/MCPushUpPopupTransition"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
